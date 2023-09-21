@@ -74,15 +74,15 @@ while (!(startGame.Equals("Start", StringComparison.OrdinalIgnoreCase) || startG
     Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine("You have provided an invalid key: ");
     Console.WriteLine("Enter 'Start' or 'S' to start the game properly!: ");
-    //Console.ResetColor();
+    Console.ResetColor();
     startGame = Console.ReadLine()!;
     
 }
 
 Random random = new();
-int diceOne = random.Next(1, 7);
-int diceTwo = random.Next(1, 7);
-int diceThree = random.Next(1, 7);
+int diceOne = 6;
+int diceTwo = 6;
+int diceThree = 6;
 int originalScore = diceOne + diceTwo + diceThree;
 const int DOUBLE_POINT = 2;
 const int TRIPLE_POINT = 3;
@@ -91,8 +91,12 @@ int totalScore = originalScore;
 
 if (diceOne == diceTwo && diceTwo == diceThree && diceThree == diceOne)
 {
+
     totalScore += TRIPLE_POINT;
-    Console.WriteLine($"Dice one: {diceOne}\n Dice two: {diceTwo}\n Dice three: {diceThree}\nYou scored a Ballon and your total Score is: {totalScore}");
+    Console.WriteLine($"Dice one: {diceOne}\nDice two: {diceTwo}\nDice three: {diceThree}");
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"You scored a Ballon and your total Score is: {totalScore}");
+    Console.ResetColor();
 }
 else if (diceOne == diceTwo || diceTwo == diceThree || diceOne == diceThree)
 {
@@ -112,4 +116,23 @@ if (totalScore == 17)
 if (totalScore == 21)
 {
     Console.WriteLine($"CONGRATS!!! You have won SAMSUNG GALAXY A23 for having a Lucky Number of: {totalScore}");
+}
+if (totalScore <= 14 )
+{
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
+    Console.WriteLine($"You are close to earning a reward: {totalScore}");
+    Console.ResetColor();
+}
+
+Console.WriteLine("======Dice Game======\nType 'Y' to continue or 'N' to stop playing");
+string continueGame = Console.ReadLine()!;
+
+while (!(continueGame.Equals("Y", StringComparison.OrdinalIgnoreCase) || continueGame.Equals("N", StringComparison.OrdinalIgnoreCase)))
+{
+    Console.ForegroundColor = ConsoleColor.DarkBlue;
+    Console.WriteLine("Enter a VALID key");
+    Console.WriteLine("Enter 'Y' or 'N' to continue or stop the game! ");
+    Console.ResetColor();
+    continueGame = Console.ReadLine()!;
+    
 }
