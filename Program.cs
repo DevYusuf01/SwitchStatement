@@ -74,7 +74,7 @@ while (!(startGame.Equals("Start", StringComparison.OrdinalIgnoreCase) || startG
     Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine("You have provided an invalid key: ");
     Console.WriteLine("Enter 'Start' or 'S' to start the game properly!: ");
-    //Console.ResetColor();
+    Console.ResetColor();
     startGame = Console.ReadLine()!;
     
 }
