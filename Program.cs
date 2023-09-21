@@ -117,6 +117,7 @@ if (totalScore == 21)
 {
     Console.WriteLine($"CONGRATS!!! You have won SAMSUNG GALAXY A23 for having a Lucky Number of: {totalScore}");
 }
+<<<<<<< HEAD
 if (totalScore <= 14 )
 {
     Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -136,3 +137,5 @@ while (!(continueGame.Equals("Y", StringComparison.OrdinalIgnoreCase) || continu
     continueGame = Console.ReadLine()!;
     
 }
+=======
+>>>>>>> d4512d07ac2ff06ac39b78b5524e3da1710c6d78
