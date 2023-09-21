@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj": {}
+    "c:\\Users\\USER\\Desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj": {
+    "c:\\Users\\USER\\Desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj",
+        "projectUniqueName": "c:\\Users\\USER\\Desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj",
         "projectName": "SwitchStatement",
-        "projectPath": "C:\\Users\\USER\\desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj",
+        "projectPath": "c:\\Users\\USER\\Desktop\\MyApps\\SwitchStatement\\SwitchStatement.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\desktop\\MyApps\\SwitchStatement\\obj\\",
+        "outputPath": "c:\\Users\\USER\\Desktop\\MyApps\\SwitchStatement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"

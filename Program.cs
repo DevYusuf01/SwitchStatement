@@ -66,7 +66,7 @@ switch (operation)
 // Indenting and Spacing
 
 
-Console.WriteLine("====== Simple Dice ======\nType 'Start' or 'S' to start or play");
+Console.WriteLine("======Welcome to Simple Dice ======");
 string startGame = Console.ReadLine()!;
 
 while (!(startGame.Equals("Start", StringComparison.OrdinalIgnoreCase) || startGame.Equals("S", StringComparison.OrdinalIgnoreCase)))
@@ -117,7 +117,7 @@ if (totalScore == 21)
 {
     Console.WriteLine($"CONGRATS!!! You have won SAMSUNG GALAXY A23 for having a Lucky Number of: {totalScore}");
 }
-<<<<<<< HEAD
+
 if (totalScore <= 14 )
 {
     Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -137,3 +137,4 @@ while (!(continueGame.Equals("Y", StringComparison.OrdinalIgnoreCase) || continu
     continueGame = Console.ReadLine()!;
     
 }
+
