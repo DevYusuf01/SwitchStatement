@@ -1,0 +1,14 @@
+C:\Users\USER\desktop\MyApps\SwitchStatement\bin\Debug\net7.0\SwitchStatement.exe
+C:\Users\USER\desktop\MyApps\SwitchStatement\bin\Debug\net7.0\SwitchStatement.deps.json
+C:\Users\USER\desktop\MyApps\SwitchStatement\bin\Debug\net7.0\SwitchStatement.runtimeconfig.json
+C:\Users\USER\desktop\MyApps\SwitchStatement\bin\Debug\net7.0\SwitchStatement.dll
+C:\Users\USER\desktop\MyApps\SwitchStatement\bin\Debug\net7.0\SwitchStatement.pdb
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\SwitchStatement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\SwitchStatement.AssemblyInfoInputs.cache
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\SwitchStatement.AssemblyInfo.cs
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\SwitchStatement.csproj.CoreCompileInputs.cache
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\SwitchStatement.dll
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\refint\SwitchStatement.dll
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\SwitchStatement.pdb
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\SwitchStatement.genruntimeconfig.cache
+C:\Users\USER\desktop\MyApps\SwitchStatement\obj\Debug\net7.0\ref\SwitchStatement.dll
